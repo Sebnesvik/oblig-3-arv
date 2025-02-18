@@ -1,11 +1,11 @@
-package org.example.replace.replace;
+package edu.ntnu.idatx2003.replace.replace;
 
-import org.example.replace.ReplaceFirstTextCommand;
+import edu.ntnu.idatx2003.replace.ReplaceTextCommand;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ReplaceFirstTextCommandTest {
+class ReplaceTextCommandTest {
 
   /**
    * Test to replace a single occurrence of the target text.
@@ -13,7 +13,7 @@ class ReplaceFirstTextCommandTest {
 
   @Test
   void testReplaceSingleOccurence() {
-    ReplaceFirstTextCommand command = new ReplaceFirstTextCommand("world", "Java");
+    ReplaceTextCommand command = new ReplaceTextCommand("world", "Java");
     String result = command.execute("Hello world");
     assertEquals("Hello Java", result);
 
@@ -25,9 +25,9 @@ class ReplaceFirstTextCommandTest {
 
   @Test
   void testReplaceMultipleOccurences() {
-    ReplaceFirstTextCommand command = new ReplaceFirstTextCommand("world", "Java");
+    ReplaceTextCommand command = new ReplaceTextCommand("world", "Java");
     String result = command.execute("Hello world, Hello world");
-    assertEquals("Hello Java, Hello world", result);
+    assertEquals("Hello Java, Hello Java", result);
   }
 
   /**
@@ -36,7 +36,7 @@ class ReplaceFirstTextCommandTest {
 
   @Test
   void testReplaceNoTarget() {
-    ReplaceFirstTextCommand command = new ReplaceFirstTextCommand("world", "Java");
+    ReplaceTextCommand command = new ReplaceTextCommand("world", "Java");
     String result = command.execute("Hello Java");
     assertEquals("Hello Java", result);
   }
@@ -47,9 +47,12 @@ class ReplaceFirstTextCommandTest {
 
   @Test
   void testReplaceNullText() {
-    ReplaceFirstTextCommand command = new ReplaceFirstTextCommand("world", "Java");
+    ReplaceTextCommand command = new ReplaceTextCommand("world", "Java");
     String result = command.execute(null);
     assertNull(result);
   }
+
+
+
 
 }

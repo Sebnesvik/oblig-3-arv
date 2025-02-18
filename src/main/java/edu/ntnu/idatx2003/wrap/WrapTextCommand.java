@@ -1,6 +1,6 @@
-package org.example.wrap;
+package edu.ntnu.idatx2003.wrap;
 
-import org.example.TextCommand;
+import edu.ntnu.idatx2003.TextCommand;
 
 public class WrapTextCommand implements TextCommand {
   private final String prefix;

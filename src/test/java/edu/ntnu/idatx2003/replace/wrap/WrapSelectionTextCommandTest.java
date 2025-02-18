@@ -1,6 +1,6 @@
-package org.example.replace.wrap;
+package edu.ntnu.idatx2003.replace.wrap;
 
-import org.example.wrap.WrapSelectionTextCommand;
+import edu.ntnu.idatx2003.wrap.WrapSelectionTextCommand;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

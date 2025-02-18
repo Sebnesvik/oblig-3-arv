@@ -1,6 +1,6 @@
-package org.example.replace;
+package edu.ntnu.idatx2003.replace;
 
-import org.example.TextCommand;
+import edu.ntnu.idatx2003.TextCommand;
 
 /**
  * Class for replacing text in a string.

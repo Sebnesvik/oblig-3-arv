@@ -1,4 +1,4 @@
-package org.example.wrap;
+package edu.ntnu.idatx2003.wrap;
 
 /**
  * WrapLinesTextCommand class
