@@ -12,6 +12,12 @@ public class ReplaceFirstTextCommand extends ReplaceTextCommand{
     super(target, replacement);
   }
 
+  /**
+   * Method to replace the first occurrence of the target in the text with the replacement.
+   * @param text
+   * @return text with replaced text
+   */
+
   @Override
   public String execute(String text) {
     if (text == null) {
