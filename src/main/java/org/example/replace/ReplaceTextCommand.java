@@ -22,6 +22,24 @@ public class ReplaceTextCommand implements TextCommand {
   }
 
   /**
+   * Getters for target.
+   */
+
+  public String getTarget() {
+    return target;
+
+  }
+
+  /**
+   * Getters for replacement.
+   */
+
+  public String getReplacement() {
+    return replacement;
+
+  }
+
+  /**
    * Method to replace text in a string.
    * @param text
    * @return text with replaced text
