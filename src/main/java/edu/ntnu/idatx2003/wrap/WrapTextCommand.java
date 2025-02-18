@@ -28,6 +28,10 @@ public WrapTextCommand (String prefix, String suffix) {
     if (text == null) {
       return null;
     }
+    if (text.isEmpty()) {
+      return "";
+
+  }
     return prefix + text + suffix;
   }
 }

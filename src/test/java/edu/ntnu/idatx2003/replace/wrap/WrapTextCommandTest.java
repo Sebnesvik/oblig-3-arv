@@ -26,7 +26,7 @@ class WrapTextCommandTest {
   void testWrapTextWithEmptyString() {
     WrapTextCommand command = new WrapTextCommand("<p>", "</p>");
     String result = command.execute("");
-    assertEquals("<p></p>", result);
+    assertEquals("", result);
   }
 
   @Test
