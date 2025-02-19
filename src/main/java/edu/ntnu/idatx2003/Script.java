@@ -13,6 +13,7 @@ public class Script {
     for (TextCommand command : textCommands) {
       text = command.execute(text);
 
+    }
     return text;
   }
 }

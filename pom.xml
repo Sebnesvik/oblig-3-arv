@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>edu.ntnu.iir.bidata.snes</groupId>
-    <artifactId>Oblig-Arv</artifactId>
+    <artifactId>oblig-3-intro-arv</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
