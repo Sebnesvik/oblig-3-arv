@@ -1,4 +1,4 @@
-package edu.ntnu.idatx2003.replace.wrap;
+package edu.ntnu.idatx2003.wrap;
 
 import edu.ntnu.idatx2003.wrap.WrapSelectionTextCommand;
 import org.junit.jupiter.api.Test;

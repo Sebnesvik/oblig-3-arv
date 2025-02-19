@@ -1,6 +1,5 @@
-package edu.ntnu.idatx2003.replace.replace;
+package edu.ntnu.idatx2003.replace;
 
-import edu.ntnu.idatx2003.replace.ReplaceTextCommand;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
