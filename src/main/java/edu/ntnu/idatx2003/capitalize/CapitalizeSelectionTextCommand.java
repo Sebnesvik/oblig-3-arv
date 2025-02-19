@@ -20,7 +20,7 @@ public class CapitalizeSelectionTextCommand extends CapitalizeTextCommand{
     if (!text.contains(selection)) {
       return text;
     }
-    return text.replaceAll("\\b" + selection +  "\\b", super.execute(selection));
+    return text.replaceAll(selection, super.execute(selection));
   }
 
 }
